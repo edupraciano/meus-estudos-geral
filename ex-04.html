@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Exercícios de JS - Básico > ex-03</title>
+</head>
+
+<body>
+
+  <script>
+    window.document.addEventListener('load', ex_04())
+
+    function ex_04() {
+
+      let valor = prompt('Qual o valor que deseja fazer o abastecimento?');
+      let qtde_litros = valor / 5;
+      let autonomia = qtde_litros * 20;
+      const preco_litro = 5;
+
+      alert(
+        `Com este valor, você conseguirá comprar: ${qtde_litros} litros de combustível e conseguirá percorrer: ${autonomia} km.`
+      )
+    }
+  </script>
+
+</body>
+
+</html>
