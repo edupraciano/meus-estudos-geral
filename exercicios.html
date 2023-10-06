@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Exercícios de JS - Básico</title>
+</head>
+
+<body>
+
+  <div>
+    <p>Digite o valor do raio (cm)</p>
+    <input type="text" id="txt-input">
+    <button onclick="ex_01()">Enviar</button>
+    <p id="txt-res"></p>
+  </div>
+
+  <script>
+    function ex_01() {
+      var pergunta = document.getElementById("txt-input");
+      var res = document.getElementById("txt-res");
+      var r = Number(pergunta.value);
+      var pi = Math.PI;
+      var area = (pi * r ** 2).toFixed(2);
+      var perimetro = (2 * pi * r).toFixed(2);
+      res.innerHTML = `Para este raio o valor do diametro é: ${perimetro} cm e sua área é: ${area} cm²`;
+    }
+  </script>
+
+</body>
+
+</html>
