@@ -19,20 +19,28 @@ header {
   padding: 0.5rem;
 }
 
+img {
+  width: 40%;
+  border-radius: 50%;
+}
+
 #container {
   display: flex;
   flex-direction: column;
   background-color: rgba(6, 89, 185, 0.699);
-  width: 800px;
-  height: 100%;
-  margin: 1rem auto;
+  width: 50%;
+  height: auto;
+  margin: auto;
   padding: 1rem;
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.236);
+  border-radius: 10px;
 }
 
-#box-1,
-#box-2 {
+#box-01,
+#box-02 {
+  text-align: center;
   background-color: rgb(223, 234, 247);
-  width: 500px;
+  width: 100%;
   margin: 1rem auto;
   padding: 1rem;
 }
@@ -44,4 +52,9 @@ footer {
   text-align: center;
   font-size: 1rem;
   padding: 0.5rem;
+  position: relative;
+  bottom: 0;
+  left: 0;
+  margin: 0 auto;
+  width: 100%;
 }

@@ -1,0 +1,1 @@
+Ex. 01 > Crie um site que a depender da hora do dia, apresente uma mensagem informando que horas são, uma imagem referente aquela hora e que se mude a cor de fundo do Body fazendo referencia àquela hora.
