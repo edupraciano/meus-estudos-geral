@@ -1,0 +1,5 @@
+Exercícios de Introdução ao Java Script  >> INTERMEDIÁRIO
+
+05. Escreva um script em JS que vai solicitar ao usuário um número.
+	Em seguida, vai verificar e dizer se ele é positivo ou negativo e se ele é par ou impar.
+

@@ -1,10 +1,11 @@
-Exercícios de Introdução ao Java Script
+Exercícios de Introdução ao Java Script >> BÁSICO
 
 01. Escreva um programa que pede o raio de um círculo, e em seguida exiba o perímetro e área do círculo.
 
 02. Você está no Brasil, e para temperatura usamos o grau Celsius.
-	Porém, quando você for contrato para trabalhar como programador Python no exterior, deverá usar graus Fahrenheit.
+	Porém, quando você foi contrato para trabalhar como programador no exterior, onde usam os graus Fahrenheit.
 	A fórmula da conversão é a seguinte: F = (9/5)*C+32, onde F é a temperatura em graus Fahrenheit e C a temperatura em graus Celsius;
+	Converta a temperatura de graus F para graus C.
 
 03. Agora faça o contrário. Você fornece a temperatura em graus Fahrenheit, seu programa deve converter para Celsius e exibir na tela a temperatura em graus Celsius.
 
