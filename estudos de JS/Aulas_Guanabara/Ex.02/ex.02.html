@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Verificador de Idades.</title>
+</head>
+
+<body>
+  <header>
+    <h1>Verificador de Idades</h1>
+  </header>
+
+  <section id="container">
+    <div id="box-1">
+
+      <div id="nascimento" for=""> Ano do Nascimento
+        <input name="txt-ano" id="txt-ano" type="text">
+      </div>
+
+      <p>Sexo:</p>
+
+      <div class="form">
+        <label for="masculino">Masculino</label>
+        <input type="radio" name="radsex" id="masculino" checked>
+        <label for="feminino">Feminino</label>
+        <input type="radio" name="radsex" id="feminino">
+      </div>
+      <button onclick="verificar()">Verificar</button>
+
+    </div>
+
+
+
+
+
+    <div id="box-2">
+
+      <div id="foto">
+        <span id="resultado">Preencha os dados a cima para ver o resultado!</span>
+        <img id="imagem" src="" alt="">
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p> &copy; eduprainvest - 2023</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
