@@ -3,7 +3,6 @@ function carregar() {
   let img = window.document.getElementById("imagem");
   let data = new Date();
   let hora = data.getHours();
-  hora = 4;
 
   if (hora < 12 && hora >= 6) {
     let tipo = "Manhã.";

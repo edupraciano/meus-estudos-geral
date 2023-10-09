@@ -14,14 +14,30 @@
   </header>
 
   <section id="container">
-    <label style="color: white; font-size:1.3rem" for="">Escolha um número para ver a tabuada.</label>
     <div id="box-1">
-      <input type="number" name="txtn" id="txtn">
-      <button onclick="calcular()">Mostrar Tabuada</button>
+      <p>
+        <label for="">Inicio</label>
+        <input id="inicio" type="number">
+      </p>
+      <p>
+        <label for="">Fim</label>
+        <input id="fim" type="number">
+      </p>
+      <p>
+        <label for="">Passo</label>
+        <input id="passo" type="number">
+      </p>
+
+      <button onclick="contar()">Contar</button>
+
+      <p>Começando a contagem...</p>
+
     </div>
 
     <div id="box-2">
-      <p id="res">Aqui aparecerá a tabuada!</p>
+      <p id="res">Aqui aparecerá a contagem!</p>
+
+
     </div>
   </section>
 
