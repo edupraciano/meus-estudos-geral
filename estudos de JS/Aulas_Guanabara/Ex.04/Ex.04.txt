@@ -1,0 +1,1 @@
+Ex. 04 > Crie um programa que escreva na tela os passos numerados em ordem (tanto crescente como decrescente) a depender do valor inicial, final e o passo que o usuário escolher.
