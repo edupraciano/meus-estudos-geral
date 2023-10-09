@@ -1,0 +1,1 @@
+Ex. 01 > Crie um site que verifique a idade e o sexo de uma pessoa e que mostre sua idade e uma foto correspondente as características escolhidas.
