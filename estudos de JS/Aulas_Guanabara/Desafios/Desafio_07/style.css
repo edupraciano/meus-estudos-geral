@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  padding: 0 auto;
+  width: 50%;
+  height: 50%;
+}
+
+#container {
+  align-items: center;
+  background-color: #d1f8d1;
+  width: 30rem;
+  height: 30rem;
+  padding: 2rem;
+  margin: 2rem;
+  text-align: center;
+  border: 1px solid #0ed60e;
+}
+
+button {
+  margin: 1rem 0.2rem;
+  width: 20%;
+  height: 10%;
+}
