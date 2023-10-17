@@ -1,0 +1,1 @@
+01 . Calculadora Simples: Crie uma calculadora que permita ao usuário realizar operações básicas, como adição, subtração, multiplicação e divisão.
