@@ -1,0 +1,2 @@
+Ex. 01 > Peça para o usuário entrar com 2 números. Em seguida, mostre na tela os números que o usuário digitou e depois, mostre um outro alerta com os números trocados. 
+
