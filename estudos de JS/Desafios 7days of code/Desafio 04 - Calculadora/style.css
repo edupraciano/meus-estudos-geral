@@ -1,0 +1,74 @@
+body {
+  display: flex;
+  justify-content: center;
+  /* text-align: center; */
+  /* align-content: center; */
+  /* align-items: center; */
+  min-height: 0 auto;
+  background-color: rgba(12, 51, 51, 0.164);
+}
+
+#container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-content: center;
+  align-items: center;
+  background-color: rgb(255, 153, 0);
+  width: 80%;
+  height: 50vh;
+  padding: 2rem;
+}
+
+#titulo {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+  /* background-color: rgb(88, 39, 180); */
+
+  padding: 1rem auto;
+}
+
+#operacao {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  min-height: 200px;
+  /* background-color: rgb(115, 255, 0); */
+
+  padding: 2rem auto;
+}
+
+/* caixa de deleção */
+#operacao :nth-child(2) {
+  margin-top: 1rem;
+}
+
+#operacao :nth-child(3) {
+  margin-top: 1rem;
+}
+
+input {
+  width: 20%;
+}
+
+#boxInput {
+  margin: 1rem auto;
+  padding: 1rem auto;
+}
+
+#visor {
+  background-color: rgb(73, 73, 73);
+  width: 100%;
+  min-height: 3rem;
+  color: white;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem auto;
+}
