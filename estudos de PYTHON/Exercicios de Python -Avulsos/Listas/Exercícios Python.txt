@@ -177,13 +177,17 @@ alcançado durante o ano que passou. Para isto contratou você para desenvolver 
 projeção de quanto será gasto com o pagamento deste abono.
 Após reuniões envolvendo a diretoria executiva, a diretoria financeira e os representantes do sindicato laboral,
 chegou-se a seguinte forma de cálculo:
-a.Cada funcionário receberá o equivalente a 20% do seu salário bruto de dezembro; a.O piso do abono será de
-100 reais, isto é, aqueles funcionários cujo salário for muito baixo, recebem este valor mínimo; Agora,
-não se deve ter nenhuma preocupação com colaboradores com tempo menor de casa, descontos, impostos ou outras
-particularidades. Seu programa deverá permitir a digitação do salário de um número indefinido (desconhecido)
-de salários. Um valor de salário igual a 0 (zero) encerra a digitação. Após a entrada de todos os dados o programa
+
+- Cada funcionário receberá o equivalente a 20% do seu salário bruto de dezembro;
+- O piso do abono será de 100 reais, isto é, aqueles funcionários cujo salário for muito baixo, recebem este valor mínimo;
+
+Por ora, não se deve ter nenhuma preocupação com colaboradores com tempo menor de casa, descontos, impostos ou outras
+particularidades.
+Seu programa deverá permitir a digitação do salário de um número indefinido (desconhecido) de salários.
+Um valor de salário igual a 0 (zero) encerra a digitação. Após a entrada de todos os dados o programa
 deverá calcular o valor do abono concedido a cada colaborador, conforme a regra definida acima. Ao final,
 o programa deverá apresentar:
+
 a) O salário de cada funcionário, juntamente com o valor do abono;
 b) O número total de funcionário processados;
 c) O valor total a ser gasto com o pagamento do abono;
